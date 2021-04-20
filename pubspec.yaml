@@ -26,13 +26,13 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.0
+  cupertino_icons: ^1.0.2
 
   # to handle SVGs for Android, iOS, and Web
-  websafe_svg: ^1.1.4
+  flutter_svg: ^0.21.0+1
 
   # state management, intelligent dependency injection, and route management
-  get: ^3.24.0
+  get: ^4.1.4
 
 dev_dependencies:
   flutter_test:
