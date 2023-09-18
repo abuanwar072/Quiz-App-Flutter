@@ -1,12 +1,19 @@
+// ignore_for_file: file_names
+
 class Question {
   final int id, answer;
   final String question;
   final List<String> options;
 
-  Question({this.id, this.question, this.answer, this.options});
+  Question({
+    required this.id,
+    required this.question,
+    required this.answer,
+    required this.options,
+  });
 }
 
-const List sample_data = [
+const List sampleData = [
   {
     "id": 1,
     "question":
